@@ -9,7 +9,7 @@ export default function LoginScreen( {navigation}: any ) {
     <View style={styles.container}>
       <Text style={ [ styles.txt , {fontSize: 80}] }>Login</Text>
 
-      <TouchableOpacity style={styles.btn} onPress={()=> navigation.navigate("Calculadora") }>
+      <TouchableOpacity style={styles.btn} onPress={()=> navigation.navigate("Tabs") }>
         <View style={styles.fila}>
             <Text style={styles.txt}>Ir a Calculadora</Text>
             <Entypo name="login" size={40} color="#6e0b75" />
